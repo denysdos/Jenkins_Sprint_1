@@ -48,12 +48,8 @@ public class CheckBox_StepDefs {
     public void click_the_vehicle_under_fleet() {
 
         checkBoxPage.fleet.click();
-
         BrowserUtils.sleep(1);
-
         checkBoxPage.vehicles.click();
-
-
         BrowserUtils.sleep(1);
     }
 
@@ -69,7 +65,7 @@ public class CheckBox_StepDefs {
 
             for (WebElement each : checkboxes) {
                 if (each.isSelected()) {
-                    System.out.println("Test FAILED - CheckBox is SELECTED");
+                    System.out.println("Tl- CheckBox is SELECTED");
                 } else {
                     System.out.println("Test PASSED - CheckBox is NOT Selected");
                 }
