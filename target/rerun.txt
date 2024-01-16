@@ -1,1 +1,1 @@
-file:src/test/resources/features/CheckBox_jira.feature:21:43
+file:src/test/resources/features/CheckBox_jira.feature:13:21
