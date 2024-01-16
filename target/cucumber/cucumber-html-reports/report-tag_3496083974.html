@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>16 Jan 2024, 17:56</td>
+      <td>16 Jan 2024, 19:35</td>
     </tr>
   </tbody>
 </table>
@@ -127,9 +127,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@B29G33-215</td>
-          <td      class="passed"    >1</td>
+          <td      class="passed"    >2</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >2</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
           <td class="total">4</td>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="4429234700">4.429</td>
+          <td class="duration" data-value="8993626400">8.993</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -182,7 +182,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">4.429</span>
+  <span class="lead-duration duration">8.993</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -220,7 +220,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.V_Track_Project.step_definitions.Hooks.setupMethod()</span>
 
-  <span class="lead-duration duration">2.605</span>
+  <span class="lead-duration duration">4.584</span>
 
           </div>
 
@@ -257,7 +257,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">Sales manager are on the homepage</span>
 
-  <span class="lead-duration duration">3.290</span>
+  <span class="lead-duration duration">3.618</span>
 
 </div>
 
@@ -280,11 +280,38 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">Click the Vehicle under Fleet</span>
 
-  <span class="lead-duration duration">1.138</span>
+  <span class="lead-duration duration">4.180</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">Users are click the first checkbox in the web-table</span>
+
+  <span class="lead-duration duration">1.194</span>
 
 </div>
 
@@ -304,10 +331,10 @@ $(document).ready(function() {
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ddbef7dcdd850fb2515f2efe00670428, clickElement {id=B26AD7021381E614967FABCE1434D258_element_46}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\natal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52705}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52705/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ddbef7dcdd850fb2515f2efe00670428)] -&gt; xpath: (//span[@class='title title-level-1'])[2]]
-Session ID: ddbef7dcdd850fb2515f2efe00670428
+Command: [8d83a716dc8266c04e61e9ac47f8bb58, clickElement {id=CEF068654E3D374E8829866B7599E009_element_58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\natal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58042}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58042/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8d83a716dc8266c04e61e9ac47f8bb58)] -&gt; xpath: (//span[@class='title title-level-1'])[2]]
+Session ID: 8d83a716dc8266c04e61e9ac47f8bb58
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -327,39 +354,12 @@ Session ID: ddbef7dcdd850fb2515f2efe00670428
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at com.V_Track_Project.step_definitions.CheckBox_StepDefs.click_the_vehicle_under_fleet(CheckBox_StepDefs.java:50)
-	at &#10045;.Click the Vehicle under Fleet(file:///C:/Users/natal/IdeaProjects/Sprint_Implementation/src/test/resources/features/CheckBox_jira.feature:15)
+	at com.V_Track_Project.step_definitions.CheckBox_StepDefs.users_are_click_the_first_checkbox_in_the_web_table(CheckBox_StepDefs.java:79)
+	at &#10045;.Users are click the first checkbox in the web-table(file:///C:/Users/natal/IdeaProjects/Sprint_Implementation/src/test/resources/features/CheckBox_jira.feature:16)
 </pre>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">Users are click the first checkbox in the web-table</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
 
 
 
@@ -424,7 +424,7 @@ Session ID: ddbef7dcdd850fb2515f2efe00670428
             <span class="keyword indention">After</span>
               <span class="location name">com.V_Track_Project.step_definitions.Hooks.teardownMethod(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">2.998</span>
+  <span class="lead-duration duration">3.446</span>
 
           </div>
 
@@ -437,13 +437,13 @@ Session ID: ddbef7dcdd850fb2515f2efe00670428
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>user checks the first checkbox to check all the cars</a>
-      <a href="embeddings/embedding_888970662.png" download target="_blank">
+      <a href="embeddings/embedding_1997623235.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_888970662.png">
+        <img src="embeddings/embedding_1997623235.png">
       </div>
     </div>
   </div>
