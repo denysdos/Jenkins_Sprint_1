@@ -11,7 +11,7 @@ Feature: Default
 
 	
 	#@B29G33-215
-	@regression
+	@smoke
 	Scenario: user checks the first checkbox to check all the cars
 		Given Sales manager are on the homepage
 		    When Click the Vehicle under Fleet
@@ -20,7 +20,7 @@ Feature: Default
 
 	
 	#@B29G33-216
-	@regression
+	@smoke
 	Scenario: users can select any car
 		Given Sales manager are on the homepage
 		    When Click the Vehicle under Fleet
@@ -28,7 +28,7 @@ Feature: Default
 
 	
 	#@B29G33-217
-	@regression
+	@smoke
 	Scenario: once the users launch on the Vehicle page, all the checkboxes should be unchecked.
 		Given Store manager are on the homepage
 		    When Click the Vehicle under Fleet
@@ -36,7 +36,7 @@ Feature: Default
 
 	
 	#@B29G33-218
-	@regression
+	@smoke
 	Scenario: user checks the first checkbox to check all the cars
 		Given Store manager are on the homepage
 		    When Click the Vehicle under Fleet
@@ -45,7 +45,7 @@ Feature: Default
 
 	
 	#@B29G33-219
-	@regression
+	@smoke
 	Scenario: users can select any car
 		Given Store manager are on the homepage
 		    When Click the Vehicle under Fleet
